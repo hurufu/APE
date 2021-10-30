@@ -1,0 +1,3 @@
+[submodule "prolog/Clex"]
+	path = prolog/Clex
+	url = git@github.com:Attempto/Clex.git

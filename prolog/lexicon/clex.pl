@@ -34,7 +34,7 @@ the executable.
 % This predicate defines the clex-file that is loaded and compiled into the executable. In order to
 % change this, you have to edit the source code and recompile.
 
-clex_file(clex_lexicon).
+clex_file('../Clex/clex_lexicon').
 %clex_file(clex_lexicon_small).
 %clex_file('').
 

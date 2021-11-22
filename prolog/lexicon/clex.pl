@@ -74,6 +74,7 @@ clex_file('../Clex/clex_lexicon').
 % Load the clex-file
 :- style_check(-discontiguous).
 :- clex_file(ClexFile), ( ClexFile == '' ; load_files(ClexFile, [encoding(utf8)]) ).
+:- load_files('ffmpeg_lexicon', [encoding(utf8)]).
 :- style_check(+discontiguous).
 
 
